@@ -1,0 +1,82 @@
+.items_selected {
+  display: inline-flex;
+  justify-content: center;
+  margin: 10px;
+  padding: 20px;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  background-color: antiquewhite;
+}
+
+.image {
+  width: 300px;
+  height: 150px;
+  margin-right: 20px;
+  border-radius: 100px;
+  padding: 20px;
+  background-color: white;
+  display: flex;
+}
+
+.name {
+  font-size: larger;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: oblique;
+  display: flex;
+  margin-right: 10px;
+  width: 50%;
+  margin: 20px;
+}
+
+.title {
+  font-size: larger;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: oblique;
+  margin-right: 10px;
+  width: 50%;
+  margin: 20px;
+}
+.text {
+  font-size: larger;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: oblique;
+  margin-right: 10px;
+  width: 50%;
+  display: flex;
+  margin: 20px;
+}
+
+.price {
+  font-size: larger;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: oblique;
+  display: inline-flex;
+  margin: 5px;
+  padding: 5px;
+}
+.price_amount {
+  width: 20px;
+  margin-top: 4px;
+  color: brown;
+}
+
+.total_price {
+  margin-bottom: 10pxpx;
+  font-weight: 100px;
+  color: rgb(112, 9, 9);
+}
+
+.Rating {
+  display: flex;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.remove_button {
+  width: 100px;
+  height: 40px;
+  margin: 10px;
+  padding: 5px;
+  text-align: center;
+}

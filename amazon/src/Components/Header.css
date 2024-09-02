@@ -1,0 +1,296 @@
+.Header {
+  height: 55px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(94, 97, 95);
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+  margin-left: -120px;
+}
+
+.headerlogo {
+  height: 50px;
+  width: 100px;
+  margin: 0px;
+  margin-top: 12px;
+  padding: 12px;
+}
+.headerlogo:hover {
+  cursor: pointer;
+  width: -90px;
+  height: 40px;
+  border: 2px solid whitesmoke;
+  border-radius: 5px;
+}
+
+/* header search bar */
+.headersearch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 24px;
+  flex: 1;
+  cursor: pointer;
+}
+
+input.headersearch_input {
+  padding: 15px;
+  height: 25px;
+  width: 84%;
+  line-height: 25px;
+  margin-right: 10px;
+  flex: 0.9;
+}
+
+.headersearch_icon {
+  padding: 5px;
+  height: 22px;
+  line-height: 22px;
+  margin-left: -12px;
+  font-size: 20px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: rgb(184, 128, 24);
+}
+
+.dropdown_icon {
+  display: flex;
+  background-color: antiquewhite;
+  gap: 3px;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  height: 23px;
+  margin-right: -20px;
+  cursor: pointer;
+  padding: 4px;
+}
+
+/* cuntries drop down  */
+.countryflag_fropdown {
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+  padding: 5px;
+  margin-left: -15px;
+  gap: 5;
+  width: 100px;
+}
+.countryflag_fropdown :hover {
+  cursor: pointer;
+}
+
+.india_image {
+  width: 20px;
+  height: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 15px;
+  margin-top: 7px;
+  margin-right: 5px;
+}
+
+.dropdownarrow {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 1px;
+  margin-left: -0.5px;
+}
+
+/* location in header bar */
+.location {
+  margin: 20px;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+}
+
+.location:hover {
+  height: 50px;
+  cursor: pointer;
+  border: 2px solid white;
+  border-radius: 5px;
+  line-height: 40px;
+}
+
+.location_image {
+  width: 15px;
+  padding-top: 7px;
+}
+
+.location_place {
+  display: flex;
+  flex-direction: row;
+}
+.top {
+  font-size: 15px;
+  color: white;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  margin-bottom: 0px;
+  margin: 10px;
+}
+
+/* header navbar links for  sign in,orders and prime links  */
+
+.header_nav {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 20px;
+}
+
+.header_option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+  margin-right: 5px;
+  grid-area: 5px;
+  justify-content: space-evenly;
+}
+
+/* now targt the text elements sign in  orders and prime one */
+
+.headeroptionline_one {
+  font-weight: 200;
+  font-style: italic;
+  font-size: 15px;
+  margin-top: 3px;
+}
+
+.headeroptionline_two {
+  font-weight: 500;
+  font-style: italic;
+  color: rgb(234, 222, 222);
+
+  border-radius: 5px;
+  padding-bottom: 3px;
+}
+
+.headeroptionline_two:hover {
+  width: auto;
+  height: auto;
+  cursor: pointer;
+}
+
+/* target the basket counter and icon */
+.header_optionBasket {
+  display: flex;
+  align-items: center;
+  color: rgb(189, 101, 29);
+  flex-direction: column;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+.header_optionBasket:hover {
+  cursor: pointer;
+  border: 2px solid white;
+  padding: 2px;
+  border-radius: 10px;
+  height: auto;
+}
+.basket_counter {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: aqua;
+  margin-bottom: 5px;
+}
+
+/* logout page */
+.headeroptionline_logout {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  font-style: italic;
+  color: rgb(223, 203, 203);
+  padding: 3px;
+  line-height: 12px;
+  border-radius: 5px;
+  padding-bottom: 5px;
+  margin-top: 30px;
+  margin-left: 30px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.headeroptionline_logout:hover {
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+/* more or menu options */
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 4;
+}
+
+.More_options {
+  display: flex;
+  flex-direction: row;
+  font-weight: 400;
+  cursor: pointer;
+  width: 30px;
+  height: 28px;
+  margin-top: 35px;
+  margin-left: 30px;
+}
+
+.More_options:hover {
+  border: 2px solid white;
+  width: -20px;
+}
+/* dropdown */
+.dropdown {
+  position: relative;
+  top: 50px;
+  right: 100px;
+  background-color: rgb(178, 203, 232);
+  color: black;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  width: 150px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 5px;
+}
+
+.dropdown ul {
+  list-style: none;
+  padding: 0;
+  padding: 5px;
+  margin: 5px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown li {
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  margin: px;
+}
+
+.dropdown li:hover {
+  background-color: whitesmoke;
+  border: 2px solid rgb(247, 209, 209);
+
+  height: +50px;
+}
+
+/* close button in drop down button */
+.dropdown__closeButton {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: rgb(234, 97, 177);
+  border-radius: 5px;
+}

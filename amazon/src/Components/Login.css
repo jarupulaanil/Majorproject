@@ -1,0 +1,149 @@
+.Container_Login_page {
+  max-width: 500px;
+  margin: 5px auto;
+  padding: 20px;
+  background-color: #d9e4c5;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rebeccapurple;
+  text-align: center;
+  position: relative;
+  height: auto;
+}
+
+.row {
+  margin: auto;
+  padding: auto;
+}
+
+.login_page {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  height: auto;
+  width: 100%;
+
+  .login_title {
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+
+/* login image */
+.Login_page_image {
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  object-fit: contain;
+}
+
+/* input field */
+.form_page {
+  margin: 10px;
+  padding: 10px;
+  /* margin-left: 350px; */
+  width: 100%;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+label {
+  font-size: 15px;
+  font-style: oblique;
+  text-shadow: 5px 3px 5px lightblue;
+  padding: 5px;
+  margin: 5px;
+}
+input[type="text"] {
+  width: 70%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #111111;
+  border-radius: 4px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+  font-size: 15px;
+  margin-left: 18px;
+}
+input[type="password"] {
+  width: 70%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #111111;
+  border-radius: 4px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+  font-size: 15px;
+}
+
+input:focus {
+  border-color: #0dab57;
+  outline: none;
+}
+
+.loginbutton {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 40%;
+  text-align: center;
+  justify-content: center;
+  margin-left: 50px;
+}
+
+.loginerrmsg {
+  color: red;
+  font-size: 15px;
+  text-transform: capitalize;
+  font-weight: 100;
+  text-decoration: underline;
+}
+
+.button:hover {
+  background-color: rgb(191, 215, 215);
+}
+
+/* terms and conditions */
+.terms_con {
+  margin-top: 10px;
+  margin-left: 30px;
+}
+.agreement {
+  text-align: center;
+  margin-left: 80px;
+}
+
+/* imagelogin */
+
+.imagelogin {
+  width: 100%;
+  object-fit: cover;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  box-shadow: 2px 5px 5px greenyellow;
+}
+
+@media (max-width: 540px) {
+  .Container_Login_page {
+    font-size: 15px;
+    width: 100%;
+  }
+}

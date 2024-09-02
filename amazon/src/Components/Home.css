@@ -1,0 +1,44 @@
+.homedetails {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 5px;
+  margin: 5px;
+  width: 100%;
+  gap: 20px;
+}
+
+.homedetailslongcard {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 15px;
+  background-color: white;
+}
+
+.longcardtitle {
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.scrolldivcards {
+  display: flex;
+  -webkit-text-stroke-width: 100%;
+  overflow: auto;
+}
+
+.scrolldivcards::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.longcardsitems {
+  display: flex;
+  flex-shrink: 0;
+  cursor: pointer;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: whitesmoke;
+}

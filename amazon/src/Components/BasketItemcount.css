@@ -1,0 +1,34 @@
+.basketitemcount {
+  margin-top: 50px;
+}
+
+.item_count {
+  background-color: rgb(230, 237, 237);
+  margin: 10px;
+  padding: 5px;
+  border-radius: 25px;
+  width: 50%;
+  margin-left: 130px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 10px;
+
+  .count_numbers {
+    padding: 10px;
+  }
+}
+
+.subtotal_gift {
+  margin: 10px;
+  padding: 1px;
+  margin-right: 10px;
+}
+
+.check_product {
+  margin-right: 10px;
+  padding: 10px;
+  width: 100%;
+  background-color: orange;
+  border-radius: 5px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
