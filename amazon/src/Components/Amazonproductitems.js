@@ -39,7 +39,7 @@ export default function Amazonproductitems(props) {
 
   return (
     <React.Fragment>
-      <Header data={product} />
+      <Header />
       <div className="Productpage">
         <div className="producttopbanner">
           <div className="productitems">Shopping Product</div>

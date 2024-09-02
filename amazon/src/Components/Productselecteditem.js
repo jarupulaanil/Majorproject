@@ -43,6 +43,9 @@ export default function Productselecteditem(props) {
         >
           Remove
         </button>
+
+        <hr></hr>
+        <button>proceed to cart</button>
       </div>
     </React.Fragment>
   );

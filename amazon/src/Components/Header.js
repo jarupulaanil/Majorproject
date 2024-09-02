@@ -10,7 +10,7 @@ import MoreIcon from "@mui/icons-material/More";
 import { useStateValue } from "./Stateprovider";
 import Productcard from "./Productcard";
 
-export default function Header({ data }) {
+export default function Header() {
   const [{ basket }, dispatch] = useStateValue();
 
   // function for the drop doown of the list in the header
@@ -99,17 +99,6 @@ export default function Header({ data }) {
 
                 // onChange={handleSearch}
               />
-              {data
-                .filter((data) => {
-                  return value === "" ? data : data.title;
-                })
-                .map((item, index) => {
-                  <Productcard
-                    index={index + 1}
-                    name={item.name}
-                    title={item.title}
-                  />;
-                })}
 
               <SearchIcon className="headersearch_icon" />
             </div>
