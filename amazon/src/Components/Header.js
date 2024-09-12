@@ -8,7 +8,6 @@ import LocationOnIcon from "@mui/icons-material/LocationOn";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import MoreIcon from "@mui/icons-material/More";
 import { useStateValue } from "./Stateprovider";
-import Productcard from "./Productcard";
 
 export default function Header() {
   const [{ basket }, dispatch] = useStateValue();
@@ -23,25 +22,6 @@ export default function Header() {
   const closeDropdown = () => {
     setDropdown(false);
   };
-
-  // search bar
-  const [value, setValue] = useState("");
-
-  // for dropdown of items
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggleDropdown = () => {
-    setIsOpen(!isOpen);
-  };
-
-  const items = [
-    "Books",
-    "Electronics",
-    "Fashion",
-    "Home & Kitchen",
-    "Toys",
-    // Add more items as needed
-  ];
 
   return (
     <React.Fragment>
@@ -94,10 +74,6 @@ export default function Header() {
                 type="text"
                 className="headersearch_input"
                 placeholder="Search items..."
-                value={value}
-                onChange={(e) => setValue(e.target.value)}
-
-                // onChange={handleSearch}
               />
 
               <SearchIcon className="headersearch_icon" />

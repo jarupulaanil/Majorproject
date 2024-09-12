@@ -4,6 +4,7 @@ import BasketItemcount from "./BasketItemcount";
 import Productselecteditem from "./Productselecteditem";
 import { useStateValue } from "./Stateprovider";
 import Header from "./Header";
+import { Link } from "react-router-dom";
 
 export default function Basket() {
   const [{ basket }, dispatch] = useStateValue();

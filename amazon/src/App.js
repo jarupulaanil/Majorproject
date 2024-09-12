@@ -12,6 +12,7 @@ import Instagram from "./Components/Instagram";
 import Twitter from "./Components/Twitter";
 import Facebook from "./Components/Facebook";
 import Sellonamazon from "./Components/Sellonamazon";
+import Returnsorders from "./Components/Returnsorders";
 
 // creating the browse router for rendering the child components
 
@@ -25,15 +26,14 @@ function App() {
           <Route path="/Home" element={<Home />} />
           <Route path="/Basket" element={<Basket />} />
           <Route path="/Register" element={<Register />} />
-
           <Route path="/Amazonproductitems" element={<Amazonproductitems />} />
-
           <Route path="/Membership" element={<Membership />} />
           <Route path="/aboutus" element={<Aboutus />} />
           <Route path="/Instagram" element={<Instagram />} />
           <Route path="/Twitter" element={<Twitter />} />
           <Route path="/Facebook" element={<Facebook />} />
           <Route path="/sellonamazon" element={<Sellonamazon />} />
+          <Route path="/returnsorders" element={<Returnsorders />} />
         </Routes>
       </Router>
     </React.Fragment>
